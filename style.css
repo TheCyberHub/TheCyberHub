@@ -9,17 +9,17 @@ body{
   font-family: montserrat;
 }
 nav{
-  background: #0082e6;
-  height: 80px;
+  background: black;
+  height: 90px;
   width: 100%;
 }
 nav img{
-    width: 90px;
+    width: 70px;
     height: 70px;
     position: absolute;
     top:5px;
     left: 4%;
-  }
+}
 nav ul{
   float: right;
   margin-right: 20px;
@@ -88,9 +88,4 @@ nav ul li a{
   #check:checked ~ ul{
     left: 0;
   }
-}
-section{
-  background: url(bg1.jpg) no-repeat;
-  background-size: cover;
-  height: calc(100vh - 80px);
 }
