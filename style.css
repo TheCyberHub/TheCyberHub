@@ -13,13 +13,13 @@ nav{
   height: 80px;
   width: 100%;
 }
-label.logo{
-  color: white;
-  font-size: 20px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
-}
+nav img{
+    width: 90px;
+    height: 70px;
+    position: absolute;
+    top:5px;
+    left: 4%;
+  }
 nav ul{
   float: right;
   margin-right: 20px;
@@ -49,10 +49,11 @@ nav ul li a{
   display: none;
 }
 @media (max-width: 952px){
-  label.logo{
-    font-size: 20px;
-    padding-left: 30px;
-  }
+  nav img{
+      left: 4%;
+      top: 5px;
+      width: 100px;
+    }
   nav ul li a{
     font-size: 16px;
   }
@@ -61,6 +62,11 @@ nav ul li a{
   .checkbtn{
     display: block;
   }
+   nav img{
+      left: 4%;
+      top: 5px;
+      width: 100px;
+    }
   ul{
     position: fixed;
     width: 100%;
