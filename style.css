@@ -48,6 +48,9 @@ nav ul li a{
 #check{
   display: none;
 }
+.article{
+  padding-left: 150px;
+}
 @media (max-width: 952px){
   nav img{
       left: 4%;
